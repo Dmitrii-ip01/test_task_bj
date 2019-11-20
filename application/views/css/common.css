@@ -1,0 +1,53 @@
+header .container-fluid {
+    height: 60px;
+}
+header .container-fluid button{
+    margin-top: 11px;
+}
+header .container-fluid a{
+    text-decoration: none
+}
+.main_block h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 8px;
+}
+.wrap-form{
+    text-align: left;
+    margin-top: 20px;
+}
+form{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 25px;
+}
+.wrap-dropdown{
+    margin-top: 20px;
+    justify-content: center;
+}
+table{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+table td{
+text-align: left;
+}
+.thead{
+    color: #fff;
+}
+tbody small{
+    color: darkred;display: flow-root
+}
+tbody .btn-admin{
+    background-image: url(/pensil.png);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    padding: 8px 8px;
+}
+.btn-group button:first-child{
+    margin-right: 20px;
+}
+.btn-group :last-child{
+    margin-left: 20px !important;
+}
